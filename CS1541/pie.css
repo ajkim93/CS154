@@ -1,0 +1,58 @@
+h1, h2 {
+	font-family: "Lucida San Unicode", "Helvetica", arial, sans-serif;
+	text-decoration: underline;
+	letter-spacing: 0.25em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: left;
+	font-size: 18pt;
+}
+
+body {
+	background-color: white;
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+	background-image: url("silverware.jpg");
+}
+
+#recipeOutline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+ol li ul {
+	list-style-type: circle;
+}
+
+.directions, .emphasis {
+	font-weight: bold;
+}
+
+h1, h2, a {
+	color: #A4A400;
+}
+
+#cake {
+	text-decoration: line-through;
+}
+
+blockquote {
+	font-style: italic;
+	background-color: #FFFFA8;
+}
+
+#ingredients { /* or ul for all bullets */
+	list-style-image: url("pie-icon.gif");
+}
+
+h1 span, h2 span {
+	background-color: #F0F0F0;
+}
