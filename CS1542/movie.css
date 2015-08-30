@@ -1,0 +1,162 @@
+body {
+	background-image: url("images/moviebg.png");
+}
+
+body, #rightSection, .reviewColumns p {
+	font-size: 10pt;
+}
+
+body, #rightSection {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner, #rottenRating {
+	background-repeat: repeat-x;
+}
+
+#banner, #validators {
+	position: fixed;
+}
+
+body, #banner {
+	width: 100%;
+}
+
+#banner {
+	background-image: url("images/rancidbannerbg.png");
+	top: 0px;
+}
+
+#banner img {
+	height: 50px; 
+}
+
+h1, #contentArea > p {
+	text-align: center;
+}
+
+h1, #rottenRating, #rightSection dt {
+	font-weight: bold;
+}
+
+h1, .quoteBoxes {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 { 
+	font-size: 24pt;
+	text-shadow: 3px 3px #999999;
+	margin-top: 72px;
+}
+
+#contentArea {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px gray;
+	background-color: #EEEEEE;
+	margin-bottom: 100px;
+}
+
+.quoteBoxes img, .critics img {
+	margin-right: 5px;
+}
+
+#contentArea, .quoteBoxes {
+	border-radius: 20px;
+}
+
+#leftSection {
+	width: 550px;
+}
+
+#rightSection {
+	float: right;
+	width: 250px;
+	background-color: #A2B964;
+}
+
+
+#rottenRating img {
+	vertical-align: bottom;
+	height: 83px;
+}
+
+#rottenRating {
+	background-image: url("images/rottenlargebg.png");
+	color: red;
+	font-size: 48pt;
+}
+
+.reviewColumns {
+	width: 47%;
+	margin-left: 2%;
+}
+
+.quoteBoxes {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+}
+
+.reviewColumns p {
+	padding: 8px;
+}
+
+.quoteBoxes img, #leftSection, .reviewColumns {
+	float: left;
+}
+
+.quoteBoxes img {
+	margin-bottom: 5px;
+}
+
+.publication {
+	font-style: italic;
+}
+
+.critics { 
+	margin-bottom: 20pt;
+}
+
+#rightSection dl {
+	margin-left: 10pt;
+}
+
+#rightSection dt { 
+	margin-top: 10pt;
+}
+
+#rightSection dd ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#contentArea > p {
+	background-color: #A2B964;
+	clear: both;
+	padding: 5px;
+	margin-bottom: 0px;
+}
+
+#validators {
+	right: 0px;
+	bottom: 0px;
+}
+
+body { 
+	height: 100%;
+}
+
+#validators img {
+	opacity: 0.5;
+}
+
+#validators img:hover {
+	opacity: 1.0;
+}
+
+#smallText {
+	color: white;
+	font-size: 8pt;
+}
