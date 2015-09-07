@@ -1,0 +1,189 @@
+body {
+	background-image: url("images/moviebg.png");
+}
+
+body, #rightSection, .reviewColumns p {
+	font-size: 10pt;
+}
+
+body, #rightSection {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#banner, #bottomBanner, .rottenRating {
+	background-repeat: repeat-x;
+}
+
+#banner, #bottomBanner, #validators {
+	position: fixed;
+}
+
+body, #banner, #bottomBanner {
+	width: 100%;
+}
+
+#banner, #bottomBanner {
+	background-image: url("images/rancidbannerbg.png");
+	z-index: 1;
+}
+
+#banner img, #bottomBanner {
+	height: 50px; 
+}
+
+h1, #sections > #bottom > p {
+	text-align: center;
+}
+
+h1, .rottenRating, #rightSection dt {
+	font-weight: bold;
+}
+
+h1, .quoteBoxes {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 { 
+	font-size: 24pt;
+	text-shadow: 3px 3px #999999;
+	margin-top: 72px;
+}
+
+#contentArea {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px gray;
+	margin-bottom: 100px;
+	background-color: #A2B964;
+	margin-bottom: 60px;
+}
+
+.quoteBoxes img, .critics img {
+	margin-right: 5px;
+}
+
+#contentArea, .quoteBoxes {
+	border-radius: 20px;
+}
+
+#leftSection {
+	width: 550px;
+	/*background-color: #EEEEEE;*/
+	position: relative;
+	left: 250px;
+}
+
+#rightSection {
+	float: right;
+	width: 250px;
+	height: 100%;
+	position: relative;
+	left: 250px;
+}
+
+
+.rottenRating img {
+	vertical-align: bottom;
+	height: 83px;
+}
+
+.rottenRating {
+	background-image: url("images/rottenlargebg.png");
+	color: red;
+	font-size: 48pt;
+}
+
+.reviewColumns {
+	width: 47%;
+	margin-left: 2%;
+}
+
+.quoteBoxes {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	overflow: hidden;
+}
+
+.reviewColumns p {
+	padding: 8px;
+}
+
+.quoteBoxes img, #leftSection, .reviewColumns, .critics img {
+	float: left;
+}
+
+.quoteBoxes img {
+	margin-bottom: 5px;
+}
+
+.publication {
+	font-style: italic;
+}
+
+.critics { 
+	margin-bottom: 20pt;
+}
+
+#rightSection dl {
+	margin-left: 10pt;
+}
+
+#rightSection dt { 
+	margin-top: 10pt;
+}
+
+#rightSection dd ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#sections > #bottom > p {
+	background-color: #A2B964;
+	clear: both;
+	padding: 5px;
+	margin-bottom: 0px;
+}
+
+#validators {
+	right: 0px;
+	bottom: 50px;
+}
+
+body { 
+	height: 100%;
+}
+
+#validators img {
+	opacity: 0.5;
+}
+
+#validators img:hover {
+	opacity: 1.0;
+}
+
+.smallText {
+	color: white;
+	font-size: 8pt;
+}
+
+#sections {
+	background-color: #EEEEEE;
+	position: relative;
+	right: 250px;
+}
+
+#bottom {
+	clear: left;
+	position: relative;
+	left: 250px;
+}
+
+#banner {
+	top: 0px;
+}
+
+#bottomBanner {
+	bottom: 0px;
+}
